@@ -7,11 +7,11 @@ Created on Wed Nov  2 08:38:23 2022
 """
 
 age = eval(input('年龄：'))
-if age>19:
+if age > 19:
     print('成年人')
 else:
     print('未成年')
-    
+
 '''
 int：整型
 long：长整型

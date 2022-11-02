@@ -9,7 +9,7 @@ Created on Wed Nov  2 08:26:45 2022
 score = 100
 price = 3.5
 weight = 7.5
-money = price*weight
+money = price * weight
 print(1 != 2)
 
 print(money, type(money))
