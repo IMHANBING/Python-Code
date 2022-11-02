@@ -1,7 +1,8 @@
 i = 1
 while i <= 5:
-    print('=' * 20)
     if i == 3:
-        continue;
+        i += 1
+        continue
+    print('=' * 20)
     print(i)
     i += 1
