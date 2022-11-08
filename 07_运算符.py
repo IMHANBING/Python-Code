@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  2 09:02:21 2022
-
-@author: iris
-"""
-
 a = 5
 b = 2
 

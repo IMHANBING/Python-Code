@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  2 08:38:23 2022
-
-@author: iris
-"""
-
 age = eval(input('年龄：'))
 if age > 19:
     print('成年人')

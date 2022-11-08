@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  2 08:33:31 2022
-
-@author: iris
-"""
-
 name = input('输入姓名：')
 print('姓名：%s' % name)
 
