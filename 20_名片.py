@@ -2,6 +2,7 @@ print('1:增加')
 print('2:删除')
 print('3:修改')
 print('4:查询')
+print('5:输出指定一个的所有信息')
 print('=' * 20)
 infos = []
 while True:
@@ -50,7 +51,16 @@ while True:
         for temp in infos:
             print('%s\t%s\t%d' % (temp['name'], temp['addr'], temp['age']))
     elif num == 5:
-        pass
+        fr_name = input('输入姓名:')
+        fr_flag = 0
+        for temp in infos:
+            if temp['name'] == fr_name:
+                print('姓名\t地址\t年龄\t\n')
+                print('%s\t%s\t%d' % (temp['name'], temp['addr'], temp['age']))
+                fr_flag = 1
+                break
+        if fr_flag == 0:
+            print('没有此人')
     elif num == 6:
         break
     else:
