@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 16 09:21:24 2022
-
-@author: Lenovo
-"""
-
-
 class Game(object):
     num = 0  # 类属性
 

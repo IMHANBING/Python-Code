@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 16 09:33:07 2022
-
-@author: Lenovo
-"""
-
-
 class Dog(object):
     def __new__(cls):
         print('new')

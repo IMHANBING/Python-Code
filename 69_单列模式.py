@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 16 09:37:15 2022
-
-@author: Lenovo
-"""
-
-
 class Dog(object):
     __instance = None
     __init_flat = False
